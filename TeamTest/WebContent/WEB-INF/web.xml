@@ -10,16 +10,39 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+  
+  <!-- FrontController 서블릿  -->
   <servlet>
-  	<servlet-name>API</servlet-name>
-  	<servlet-class>test.Yongdo</servlet-class>
+  	<servlet-name>FrontController</servlet-name>
+  	<servlet-class>com.test.action.FrontController</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>API</servlet-name>
-  	<url-pattern>/test</url-pattern>
+  	<servlet-name>FrontController</servlet-name>
+  	<url-pattern>*.test</url-pattern>
   </servlet-mapping>
+  <!-- FrontController 서블릿  -->
   
+  <!-- Area  -->
+  <servlet>
+  	<servlet-name>Area</servlet-name>
+  	<servlet-class>example.Area</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Area</servlet-name>
+  	<url-pattern>/areaTest</url-pattern>
+  </servlet-mapping>
+  <!-- Area  -->
   
+  <!--ExSpot -->
+  <servlet>
+  	<servlet-name>Spot</servlet-name>
+  	<servlet-class>example.ExSpot</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Spot</servlet-name>
+  	<url-pattern>/spotTest</url-pattern>
+  </servlet-mapping>
+  <!--ExSpot -->
   
   
 </web-app>
