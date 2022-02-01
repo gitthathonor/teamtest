@@ -12,8 +12,9 @@
 <body>
 	f47yx%2FsSVGp6fgmm1EYl9EdqbY1CJpRaAynHGwNF175VZlnJnQWS%2BJagCJYeUBERQ%2FZsEC%2BAYOxd432K%2FBmp4g%3D%3D
 	
-	<% %>
 	
+	
+	<h1>index 파트 고치기</h1>
 	
 </body>
 </html>
