@@ -48,6 +48,7 @@
 </head>
 <body>
 	<h1>ajax 방식 연습중</h1>
+	<h2>hello</h2>
 	
 </body>
 </html>

@@ -16,14 +16,14 @@ import java.io.IOException;
 
 
 @WebServlet
-public class Area extends HttpServlet{
+public class Cities extends HttpServlet{
 	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
-	public Area() {
+	public Cities() {
 		
 	}
     /*public static void main(String[] args) throws IOException {
