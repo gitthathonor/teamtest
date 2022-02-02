@@ -23,11 +23,11 @@
   <!-- FrontController 서블릿  -->
   <servlet>
   	<servlet-name>FrontController</servlet-name>
-  	<servlet-class>com.test.action.FrontController</servlet-class>
+  	<servlet-class>com.tripicker.action.ActionFrontController</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>FrontController</servlet-name>
-  	<url-pattern>*.test</url-pattern>
+  	<url-pattern>*.trip</url-pattern>
   </servlet-mapping>
   <!-- FrontController 서블릿  -->
   

@@ -4,15 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script src="js/jquesy-3.6.0.js"></script>
-<script type="text/javascript">
-</script>
-<title>공공데이터 들고오기</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<% 
-		response.sendRedirect("./main.trip");
-	%>
-	
+
 </body>
 </html>
