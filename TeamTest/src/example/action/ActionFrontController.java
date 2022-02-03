@@ -33,7 +33,21 @@ public class ActionFrontController extends HttpServlet {
 			forward = new ActionForward();
 			forward.setPath("./main/main.jsp");
 			forward.setRedirect(false);
-		}
+		} else if(command.equals("/InsertCity.tr")) {
+			System.out.println("F : /InsertCity.tr 주소 호출!");
+			forward = new ActionForward();
+			forward.setPath("./example/insertCity.jsp");
+			forward.setRedirect(false);
+			
+		} else if(command.equals("/InsertCityAction.tr")) {
+			System.out.println("F : /InsertCityAction.tr 주소 호출!");
+			action = new InsertCityAction();
+			try {
+				forward = action.execute(request, response);
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
+		} //InsertCityAction
 
 		///// 2. 가상 주소 매핑/////
 		///// 3. 페이지 이동/////

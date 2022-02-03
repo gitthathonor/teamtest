@@ -12,6 +12,7 @@
 <jsp:include page="../include/header.jsp"/>
 <!-- header 들어가는 곳  -->
 	
+	<a href="./InsertCity.tr">여행 도시 선택하러 가기</a>
 	
 	
 	

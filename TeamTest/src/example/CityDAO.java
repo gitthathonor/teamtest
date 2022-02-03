@@ -168,7 +168,7 @@ public class CityDAO {
 
 	///// CityDTO 객체 가져오는 메서드/////
 	public CityDTO getCity(int cityCode) {
-		CityDTO cdto = null;
+		CityDTO cdto = new CityDTO();
 		// DB연결
 		try {
 			con = getCon();
