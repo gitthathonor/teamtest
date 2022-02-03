@@ -20,17 +20,6 @@
   <!-- 커넥션 풀 -->
   
   
-  <!-- FrontController 서블릿  -->
-  <servlet>
-  	<servlet-name>FrontController</servlet-name>
-  	<servlet-class>com.tripicker.action.ActionFrontController</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>FrontController</servlet-name>
-  	<url-pattern>*.trip</url-pattern>
-  </servlet-mapping>
-  <!-- FrontController 서블릿  -->
-  
   <!-- Area  -->
   <servlet>
   	<servlet-name>Area</servlet-name>
@@ -52,5 +41,18 @@
   	<url-pattern>/spotTest</url-pattern>
   </servlet-mapping>
   <!--ExSpot -->
+  
+  <!-- webServlet -->
+  <servlet>
+  	<servlet-name>ActionFrontController</servlet-name>
+  	<servlet-class>example.action.ActionFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ActionFrontController</servlet-name>
+  	<url-pattern>*.tr</url-pattern>
+  </servlet-mapping>
+  <!-- webServlet -->
+  
+  
   
 </web-app>

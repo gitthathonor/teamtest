@@ -28,8 +28,8 @@
 				console.log(data);
 				
 				$(data).find('item').each(function(){
-					var original = $(this).find('originalimgurl').text();
-					$('body').append("<a href="+original+">"+이미지+"</a>");
+					var originimgurl = $(this).find('originimgurl').text();
+					$('body').append("<img src='"+originimgurl+"'>");
 				});
 			}
 		});
@@ -49,6 +49,8 @@
 <body>
 	<h1>ajax 방식 연습중</h1>
 	<h2>hello</h2>
+	
+	
 	
 </body>
 </html>

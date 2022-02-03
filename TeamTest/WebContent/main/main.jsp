@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,21 +11,9 @@
 <!-- header 들어가는 곳  -->
 <jsp:include page="../include/header.jsp"/>
 <!-- header 들어가는 곳  -->
-
-	<table>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-		</tr>
-	</table>
 	
-	<a href="./CityInsert.trip">도시 선택하기</a>
+	
+	
 	
 
 <!-- footer 들어가는 곳 -->

@@ -4,15 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script src="js/jquesy-3.6.0.js"></script>
-<script type="text/javascript">
-</script>
-<title>공공데이터 들고오기</title>
+<title>도시 웹 크롤링 데이터 베이스 넣기 - test</title>
+<script src="/js/jquery-3.6.0.js"></script>
+<script type="text/javascript"></script>
 </head>
 <body>
-	<% 
-		response.sendRedirect("./Main.tr");
-	%>
-	
+	<a href="insertCityPro.jsp">도시 정보 Jsoup으로 웹 크롤링 해서 DB에 집어넣기</a>
 </body>
 </html>

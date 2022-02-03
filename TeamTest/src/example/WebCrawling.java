@@ -19,10 +19,12 @@ public class WebCrawling {
 				Elements areaName = doc.getElementsByClass("name-Xm7WQ");
 				Elements areaEngName = doc.getElementsByClass("nameEn-33oNZ");
 				Elements areaInfo = doc.getElementsByClass("text");
+				Elements cityImgUrl = doc.getElementsByClass("img-zsxw2");
 
 				System.out.println(areaName.text());
 				System.out.println(areaEngName.text());
 				System.out.println(areaInfo.text());
+				System.out.println(cityImgUrl.text());
 			}
 			
 			for (int i = 10; i < 18; i++) {
@@ -35,10 +37,12 @@ public class WebCrawling {
 				Elements areaName = doc.getElementsByClass("name-Xm7WQ");
 				Elements areaEngName = doc.getElementsByClass("nameEn-33oNZ");
 				Elements areaInfo = doc.getElementsByClass("text");
+				//Elements cityImgUrl = doc.getElementsByClass("figure-3ftWB");
 
 				System.out.println(areaName.text());
 				System.out.println(areaEngName.text());
 				System.out.println(areaInfo.text());
+				//System.out.println(cityImgUrl.text());
 			}
 			
 		} catch (Exception e) {

@@ -16,34 +16,34 @@ public class ActionFrontController extends HttpServlet{
 		
 		/////1. 가상 주소 계산/////
 		
-		String requestURI = request.getRequestURI();
-		System.out.println("F : requestURI = " + requestURI);
-		String ctxPath = request.getContextPath();
-		System.out.println("F : ctxPath = " + ctxPath);
-		String command = requestURI.substring(ctxPath.length());
-		System.out.println("F : command = " + command);
-		
+//		String requestURI = request.getRequestURI();
+//		System.out.println("F : requestURI = " + requestURI);
+//		String ctxPath = request.getContextPath();
+//		System.out.println("F : ctxPath = " + ctxPath);
+//		String command = requestURI.substring(ctxPath.length());
+//		System.out.println("F : command = " + command);
+//		
 		/////1. 가상 주소 계산/////
 		
 		
 		/////2. 가상 주소 매핑/////
-		Action action = null;
-		ActionForward forward = null;
-		
-		if(command.equals("/Main.trip")) {
-			System.out.println("F : /Main.trip 주소 호출!");
-		} //메인 페이지로 들어간다. (DB사용X -> /main/main.jsp 출력
-		
-		forward = new ActionForward();
-		forward.setPath("/main/main.jsp");
-		forward.setRedirect(false);
-		
+//		Action action = null;
+//		ActionForward forward = null;
+//		
+//		if(command.equals("/Main.trip")) {
+//			System.out.println("F : /Main.trip 주소 호출!");
+//		} //메인 페이지로 들어간다. (DB사용X -> /main/main.jsp 출력
+//		
+//		forward = new ActionForward();
+//		forward.setPath("/main/main.jsp");
+//		forward.setRedirect(false);
+//		
 		/////2. 가상 주소 매핑/////
 		
 		
 		/////3. 페이지 이동/////
 		
-		if(forward != null) {
+		/*if(forward != null) {
 			
 			if(forward.isRedirect()) { //true
 				response.sendRedirect(forward.getPath());
@@ -58,14 +58,9 @@ public class ActionFrontController extends HttpServlet{
 			}
 			
 		}
-		System.out.println("F : 3. 페이지 이동 끝 \n\n\n");
+		System.out.println("F : 3. 페이지 이동 끝 \n\n\n");*/
 		
 		/////3. 페이지 이동/////
-		
-		
-		
-		
-		
 		
 	}
 	
